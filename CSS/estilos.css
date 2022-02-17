@@ -31,7 +31,17 @@
     object-fit: cover;
 }
 
+.botonCartas{
+    background-color: rgb(107, 197, 219);
+    border-color: rgb(59, 70, 168);
+    color: white;
+}
 
+.botonCartas:hover{
+    background-color: rgb(255, 83, 126);
+    border-color: rgb(114, 12, 46);
+    color: white;
+}
 
 
 
