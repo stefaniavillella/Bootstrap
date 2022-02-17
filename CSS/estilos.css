@@ -1,10 +1,32 @@
 .imgLogo{
-    width: 20%;
+    width: 100%;
     height: auto;
     display: inline-block
 }
 
 
 .navItem{
-    color: blueviolet;
+    color: rgb(129, 77, 177);
+}
+
+.navItem:hover{
+    color: rgb(219, 139, 172);
+    font-weight: bold;
+}
+
+.botonBusqueda{
+    background-color: rgb(207, 157, 255);
+    border-color: blueviolet;
+    color: white;
+}
+
+.botonBusqueda:hover{
+    background-color: rgb(60, 32, 87);
+    border-color: rgb(48, 1, 59);
+    color: white;
+}
+
+.imgCarrusel{
+    height: 80vh;
+    object-fit: cover;
 }
