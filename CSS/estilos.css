@@ -76,10 +76,19 @@
 }
 
 
+.itemCategorias{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 
+.aList{
+    color: rgb(154, 94, 221);
+}
 
-
+.aList:hover{
+    color: rgb(202, 10, 116);
+}
 
 
 /* MEDIA QUERIES */
@@ -99,6 +108,10 @@
     .cardFlex{
         display: flex;
         justify-content: center;
+    }
+
+    .cardKit{
+        padding-top: 10px;
     }
 }
 
