@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/bootstrap-grid.css">
 
     <meta charset="UTF-8">
@@ -12,46 +12,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
-
+ 
     <link rel="stylesheet" href="./CSS/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 <body>
     <header>
-    
-        <nav class="navbar navbar-expand-lg bg-light navBar container-fluid sticky-top">
-            <div>
-                <img class="img-fluid imgLogo" src="./IMG/logo.png">
-            </div>
-              <div class="collapse navbar-collapse d-flex justify-content-end"" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 pr-2">
-                  <li class="nav-item align-items-center">
-                    <a class="nav-link active navItem" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navItem" href="./VISTAS/quienesSomos.html">Quiénes somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navItem" href="./VISTAS/productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navItem" href="./VISTAS/comoComprar.html">Cómo comprar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navItem" href="./VISTAS/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Ingresar búsqueda" aria-label="Search">
-                  <button class="btn btn-outline-success botonBusqueda" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="./IMG/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active navItem" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navItem" href="./VISTAS/quienesSomos.html">Quiénes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navItem" href="./VISTAS/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navItem" href="./VISTAS/comoComprar.html">Cómo comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navItem" href="./VISTAS/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Ingresar búsqueda" aria-label="Search">
+              <button class="btn btn-outline-success botonBusqueda" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ </header>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+ <div class="container-fluid p-0">
+   <div class="row">
+     <div class="col-lg-12 col-xs-12">
+       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./IMG/slide1.jpg" class="d-block w-100 imgCarrusel" alt="...">
@@ -72,12 +76,16 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
+  </div>
 
 
 
 
-   <section class="contenedorKits">
-   <div class="divKit shadow">
+
+  <div class="container fluid p-0 d-flex justify-content-around">
+      <section class="row mt-5 ">
+   <div class="col-lg-4 col-xs-12 text-center shadow">
       <a href="#"><img src="./IMG/kitCumples.jpg" alt="imagen de botón para kits de cumples"></a>
       <p> Hacé que el cumpleaños sea aún más mágico con estos kits que tenemos para vos. <br>
           Solo buscá el que más te guste, comprá, descargá, editá e imprimí. ¡LISTO! <br>
@@ -85,7 +93,7 @@
       </p>
     </div>
 
-    <div class="divKit shadow">
+    <div class="col-lg-4 col-xs-12 text-center shadow">
       <a href="#"><img src="./IMG/bautismos.jpg" alt="imagen de botón para kits de bautismos"></a>
       <p> Los bautismos y comuniones son tan importantes como un cumple <br>
         Por eso te invitamos a que veas todas las opciones que tenemos para decorar <br>
@@ -93,7 +101,7 @@
     </p>
 </div>
 
-<div class="divKit__tabla">
+<div class="col-lg-4 col-xs-12 text-center">
     <table class="tablaContenido" border="2" cellspacing="10px" cellpadding="10px">
         <thead>
        <tr>
@@ -129,7 +137,12 @@
     </tr>
    </table>
 </div>
+</div>
+</div>
    </section>
+
+
+
 
    <section class="datosCompras">
    <div>
@@ -174,7 +187,7 @@
 </section>
    </footer>
 
-   <script src="./js/bootstrap.js"></script>
+   <script src="./js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
