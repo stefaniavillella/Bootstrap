@@ -95,6 +95,16 @@
     width: 100px;
 }
 
+.cardContacto{
+    background-color: rgb(255, 242, 248);
+}
+
+.red{
+    color: red;
+}
+
+
+
 /* MEDIA QUERIES */
 
 
