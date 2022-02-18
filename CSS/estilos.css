@@ -50,8 +50,9 @@
 }
 
 .shadow:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
+
 
 .black{
     color: black;
@@ -90,6 +91,9 @@
     color: rgb(202, 10, 116);
 }
 
+.compraImage{
+    width: 100px;
+}
 
 /* MEDIA QUERIES */
 
